@@ -1,0 +1,66 @@
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20000;
+  /* 모달 화면 */
+  .container {
+    width: 900px;
+    height: 600px;
+    border-radius: 0.313rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    /* 글쓰기 제목 및 닫기 버튼 */
+    .header {
+      padding: 20px 20px;
+      display: flex;
+      justify-content: center;
+      .title {
+        font-size: 20px;
+      }
+    }
+    .videos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 450px;
+      overflow: auto;
+      padding: 0 30px;
+    }
+    /* 하단 버튼 */
+    .bottom {
+      border-top: solid 1px #d5d5d5;
+      .close {
+        font-size: 16px;
+        position: absolute;
+        right: 160px;
+        bottom: 30px;
+        color: white;
+        background-color: rgb(150, 150, 150);
+        padding: 5px 30px;
+        border: 2px solid rgb(150, 150, 150);
+        border-radius: 0.313rem;
+        cursor: pointer;
+      }
+      .write {
+        font-size: 16px;
+        position: absolute;
+        right: 50px;
+        bottom: 30px;
+        color: white;
+        background-color: #3c3c48;
+        border: 2px solid #3c3c48;
+        padding: 5px 30px;
+        border-radius: 0.313rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

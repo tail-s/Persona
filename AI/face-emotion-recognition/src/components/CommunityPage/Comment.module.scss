@@ -1,0 +1,11 @@
+.comment {
+  .info {
+    display: flex;
+    .items {
+      padding-left: 10px;
+      .nickname {
+        font-weight: bold;
+      }
+    }
+  }
+}

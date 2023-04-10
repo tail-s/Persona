@@ -1,0 +1,19 @@
+.outline {
+  width: 60%;
+  min-width: 600px;
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    padding: 25px;
+    border-bottom: 1px solid #bdbdbd;
+  }
+  .scripts {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .more{
+    margin-left: 80%;
+  }
+}

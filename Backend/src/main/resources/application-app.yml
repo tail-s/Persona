@@ -1,0 +1,46 @@
+app:
+  oauth2:
+    authorized-redirect-uris:
+      - https://j8b301.p.ssafy.io/oauth2/token
+      - http://localhost:3000/oauth2/token
+
+
+  auth:
+    tokenSecret: 04ca023b39512e46d0c2cf4b48d5aac61d34302994c87ed4eff225dcf3b0a218739f3897051a057f9b846a69ea2927a587044164b7bae5e1306219d50b588cb1
+    tokenExpirationMsec: 86400000
+
+mysql:
+  port: mysql-db:3306
+  user: STEPUP
+  pwd: "!stepup@persona#301"
+
+redis:
+  host: redis-db
+  port: 6379
+  pwd: ssafy3542
+
+oauth2:
+  google:
+    id: 210492167110-lfiuso34ko9chdv1qvkh39hefeh8gugv.apps.googleusercontent.com
+    secret: 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
+  naver:
+    id: oIcX6isYx1rMy8rixb74
+    secret: zFpNuVO8og
+  kakao:
+    id: cf2b28e65350426d2a63e8c5ff602bf1
+    secret: TYOC8nfxKUwIQC9aW8nTv61V8Cs5Ushx
+
+cors:
+  allowedOrigins: http://localhost:3000, http://j8b301.p.ssafy.io:3000, https://j8b301.p.ssafy.io
+
+cloud:
+  aws:
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIAXOKFGBIDWBDEY6IA
+      secret-key: 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
+    s3:
+      bucket: persona-test-bucket
+    region:
+      static: ap-northeast-2

@@ -1,0 +1,174 @@
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 30000;
+  /* 모달 화면 */
+  .container {
+    width: 900px;
+    height: 600px;
+    min-width: 990px;
+    border-radius: 0.313rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    overflow: auto;
+    .body {
+      padding: 1.5rem 3rem;
+      /* 글쓰기 제목 및 닫기 버튼 */
+      .header {
+        .close {
+          position: fixed;
+          right: 50px;
+          top: 50px;
+          font-size: 35px;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          opacity: 0.6;
+        }
+        .close:hover {
+          opacity: 1;
+        }
+      }
+      /* 프로필 및 닉네임, 날짜 정보 */
+      .info {
+        display: flex;
+        padding-bottom: 20px;
+        border-bottom: solid 1px #d5d5d5;
+        .profile {
+          padding-top: 5px;
+        }
+        .userdate {
+          margin: auto 0;
+          padding-left: 10px;
+          .nickname {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          .date {
+            font-size: 16px;
+            width: max-content;
+            color: #737373;
+            padding-top: 3px;
+          }
+        }
+        .btn {
+          display: flex;
+          justify-content: flex-end;
+          width: -webkit-fill-available;
+          padding-top: 10px;
+          .likebtn {
+            font-size: 20px;
+            padding: 10px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+          }
+          .menubtn {
+            font-size: 20px;
+            padding: 10px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            .dropdownOptions {
+              background-color: #d9d9d9;
+              width: 70px;
+              position: absolute;
+              top: 70px;
+              right: 0;
+              .modify {
+                padding: 5px;
+                border-bottom: 1px solid #a2a2a2;
+              }
+              .delete {
+                padding: 5px;
+              }
+            }
+          }
+        }
+      }
+      .title {
+        font-size: 26px;
+        font-weight: bold;
+        padding-top: 20px;
+      }
+      .video {
+        margin: 10px auto;
+        width: 500px;
+      }
+      .content {
+        padding: 10px 0;
+      }
+      .items {
+        display: flex;
+        padding-top: 20px;
+        .like {
+          display: flex;
+          margin-right: 15px;
+          .num {
+            margin-left: 5px;
+          }
+        }
+        .visited {
+          display: flex;
+          margin-right: 15px;
+          .num {
+            margin-left: 5px;
+          }
+        }
+        .comment {
+          display: flex;
+          .num {
+            margin-left: 5px;
+          }
+        }
+      }
+    }
+    .bottom {
+      border-top: solid 1px #d5d5d5;
+      background-color: #f3f3f3;
+      height: inherit;
+      .input {
+        // padding: 5px 20px;
+        display: flex;
+        width: 100%;
+        padding: 20px 30px;
+        border-bottom: solid 1px #d5d5d5;
+        .commentInput {
+          width: -webkit-fill-available;
+          min-width: 600px;
+          margin-right: 10px;
+          padding-left: 15px;
+          border-radius: 18px;
+          outline: none;
+          border: 1px solid lightgray;
+        }
+        .push {
+          width: 100px;
+          height: 30px;
+          min-width: 64px;
+          height: 35px;
+          padding: 0 15px;
+          color: #474e60;
+          background: #d9d9d9;
+          border-radius: 18px;
+          border: 1px solid lightgray;
+          cursor: pointer;
+        }
+      }
+      .commentItem {
+        padding: 20px 40px;
+        border-bottom: solid 1px #d5d5d5;
+        background-color: #f3f3f3;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.outline {
+  width: 60%;
+  min-width: 600px;
+  .header {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+    padding: 25px;
+    border-bottom: 1px solid #bdbdbd;
+  }
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fafbfc;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 10px;
+    .postMenu {
+      padding: 15px;
+      cursor: pointer;
+      .selected {
+        border-bottom: 2px solid black;
+      }
+    }
+    .commentMenu {
+      padding: 15px;
+      cursor: pointer;
+      .selected {
+        border-bottom: 2px solid black;
+      }
+    }
+  }
+  .commentContainer {
+    .commentItem {
+      background-color: white;
+      margin-bottom: 10px;
+      padding: 20px;
+      box-shadow: 0px 1px 2px 0px #d5d5d5;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+matplotlib
+keras>=2.0.0
+opencv-python
+opencv-contrib-python
+pandas
+Pillow
+requests
+facenet-pytorch
+tqdm>=4.62.1
+moviepy==1.0.3
+ffmpeg==1.4

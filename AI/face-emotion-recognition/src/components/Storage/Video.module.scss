@@ -1,0 +1,21 @@
+.video {
+  border: 1px solid #000000;
+  background-color: #ffffff9c;
+  padding: 30px;
+  margin: 10px;
+  width: 15%;
+  min-width: 250px;
+  height: 250px;
+  border-radius: 1rem;
+  cursor: pointer;
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .img{
+    width: 100%;
+    height: 80%;
+    padding: 5px;
+    margin-top: 5%;
+  }
+}

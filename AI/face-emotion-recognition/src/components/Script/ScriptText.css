@@ -1,0 +1,17 @@
+.script{
+  width: 380px;
+  height: 170px;
+  margin-right: 100px;
+  background-color: white;
+  border-radius: 12px;
+  overflow:scroll;
+}
+
+.scripttext{
+  padding: 8%;
+  font-weight: bold;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

@@ -1,0 +1,97 @@
+.back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20000;
+  /* 모달 화면 */
+  .container {
+    padding: 1.5rem 3rem;
+    width: 900px;
+    height: 600px;
+    border-radius: 0.313rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #ffffff;
+    /* 글쓰기 제목 및 닫기 버튼 */
+    .header {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+      .title {
+        font-size: 20px;
+      }
+    }
+    /* 텍스트 에디터 */
+    .quill {
+      height: 350px;
+      margin-top: 15px;
+    }
+    /* 제목 입력창 */
+    .input {
+      margin-top: 10px;
+      font-size: 16px;
+      padding: 10px;
+      border: solid 1px #c0c0c0;
+    }
+    /* 하단 버튼 */
+    .bottom {
+      .video {
+        display: flex;
+        font-size: 20px;
+        position: absolute;
+        left: 50px;
+        bottom: 38px;
+        width: fit-content;
+        cursor: pointer;
+        .pull {
+          font-size: 18px;
+          padding-left: 10px;
+          background-color: transparent;
+          border: none;
+        }
+      }
+      .close {
+        font-size: 16px;
+        position: absolute;
+        right: 160px;
+        bottom: 30px;
+        color: white;
+        background-color: rgb(150, 150, 150);
+        padding: 5px 30px;
+        border: 2px solid rgb(150, 150, 150);
+        border-radius: 0.313rem;
+        cursor: pointer;
+      }
+      .disabled {
+        font-size: 16px;
+        position: absolute;
+        right: 50px;
+        bottom: 30px;
+        color: white;
+        background-color: #c9c9ca;
+        border: 2px solid #c9c9ca;
+        padding: 5px 30px;
+        border-radius: 0.313rem;
+      }
+      .write {
+        font-size: 16px;
+        position: absolute;
+        right: 50px;
+        bottom: 30px;
+        color: white;
+        background-color: #3c3c48;
+        border: 2px solid #3c3c48;
+        padding: 5px 30px;
+        border-radius: 0.313rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

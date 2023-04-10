@@ -1,0 +1,38 @@
+.wrapper {
+  flex-direction: column;
+  min-width: 1234px;
+  display: flex;
+}
+
+.intro {
+  height: 200px;
+  text-align: center;
+  background-color: lightgrey;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 75px;
+  .title {
+    font-size: 30px;
+  }
+  .content {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  transform: none;
+  background-color: #edeef0;
+  .videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+    padding: 0 30px;
+  }
+}

@@ -1,0 +1,142 @@
+.wrapper {
+  flex-direction: column;
+  min-width: 1234px;
+  display: flex;
+}
+
+.container {
+  margin-top: 75px;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 1000px;
+
+  .maintext {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 1%;
+  }
+
+  .subtext {
+    margin-left: 3%;
+    margin-bottom: 2%;
+  }
+  .script {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .detail {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 500px;
+      width: 37vw;
+      height: 70vh;
+      border: solid 1px #6a6a6a;
+      border-radius: 20px;
+      background-color: white;
+      .wrap {
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .newandbookmark {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 15px;
+          .new {
+            color: orange;
+          }
+          .bookmark {
+            color: red;
+            font-size: 20px;
+          }
+        }
+        .title {
+          margin-bottom: 3%;
+        }
+        .actor {
+          margin-bottom: 3%;
+        }
+        .info {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 4%;
+          width: 100%;
+          .author {
+            margin-right: 5%;
+          }
+          .data {
+            margin-right: 30%;
+            color: #5e5e5e;
+          }
+          .icon {
+            margin-left: 15px;
+            margin-right: 3px;
+          }
+        }
+
+        .line {
+          width: 100%;
+          height: 0px;
+
+          border: 1px solid #000000;
+          transform: rotate(0.23deg);
+
+          margin-bottom: 3%;
+        }
+
+        .content {
+          color: #3c3c48;
+          font-size: 20px;
+          line-height: 1.5em;
+        }
+      }
+    }
+    .edit {
+      width: 37vw;
+      height: 70vh;
+      border: solid 1px #6a6a6a;
+      border-radius: 20px;
+      background-color: white;
+      min-width: 500px;
+      .quill {
+        height: 585px;
+      }
+    }
+  }
+  .route {
+    // width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    .listBtn {
+      margin: 20px 10px 0 10px;
+      font-size: 16px;
+      right: 50px;
+      bottom: 30px;
+      color: white;
+      background-color: #3c3c48;
+      border: 2px solid #3c3c48;
+      padding: 5px 30px;
+      border-radius: 0.313rem;
+      cursor: pointer;
+    }
+    .practiceBtn {
+      margin: 20px 25px 0 10px;
+      font-size: 16px;
+      right: 50px;
+      bottom: 30px;
+      color: white;
+      background-color: #3c3c48;
+      border: 2px solid #3c3c48;
+      padding: 5px 30px;
+      border-radius: 0.313rem;
+      cursor: pointer;
+    }
+  }
+}

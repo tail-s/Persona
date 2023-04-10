@@ -1,0 +1,18 @@
+.chart {
+  width: 1300px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 930px) {
+  .chart {
+    width: 700px;
+    height: 500px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .chart {
+    width: 600px;
+    height: 400px;
+  }
+}

@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid #939393;
+  border-radius: 30px;
+  background-color: white;
+
+  width: 18em;
+  height: 20em;
+  margin: 30px;
+  cursor: pointer;
+  
+  .wrap {
+      .dateandbookmark {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 5%;
+          .date {
+              color: gray;  
+              margin-right: 5em;
+          }
+          .bookmark {
+              color: red;              
+          }
+  
+      }
+      .title {
+        margin-bottom: 3%;
+
+    }
+
+    .actor {
+        margin-bottom: 20%;
+
+    }
+
+    .category {
+
+        display: flex;
+        flex-direction: row;
+        
+
+        .round {
+
+            margin-right: 5%;
+            margin-bottom: 5%;
+            padding: 2% 5%;
+            border: 1px solid #6F6F6F;
+            display: flex;
+            align-items: center;
+            text-align: center;
+
+            color: #6F6F6F;
+            font-style: normal;
+
+            border-radius: 40px;
+            background-color: transparent;
+
+        }
+
+    }
+
+
+      
+    .line {
+        width: 240px;
+        height: 0px;
+        left: 439px;
+        top: 918px;
+
+        border: 1px solid #000000;
+        transform: rotate(0.23deg);
+
+        margin-bottom: 3%;
+
+    }
+
+    .subinfo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        .cntinfo {
+            display: flex;
+            flex-direction: row;
+        }
+
+    }
+
+  }
+
+  
+
+}

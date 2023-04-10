@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  .intro {
+    height: 200px;
+    text-align: center;
+    background-color: lightgrey;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 75px;
+    .title {
+      font-size: 30px;
+    }
+    .content {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+  }
+  // .banner {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   height: 25vh;
+  //   width: 100%;
+  //   overflow: hidden;
+
+  //   .bookimg {
+  //     width: 100%;
+  //     opacity: 0.4;
+  //     overflow: hidden;
+  //   }
+  //   // .text {
+  //   //   position: absolute;
+  //   //   display: flex;
+  //   //   flex-direction: column;
+  //   //   align-items: center;
+  //   //   justify-content: center;
+  //   // }
+  //   h1 {
+  //     color: #111827;
+  //     margin-bottom: 3vh;
+  //     z-index: 1;
+  //   }
+  //   .subtitle {
+  //     color: #5c677d;
+  //     z-index: 1;
+  //   }
+  // }
+  .filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ffffff;
+
+    .search {
+      width: 800px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 3vh;
+      justify-content: center;
+      border: 2px solid #b7bfcd;
+      margin-bottom: 8px;
+
+      .selectbox {
+        width: 130px;
+        height: 40px;
+        border: none;
+        margin-left: 15px;
+      }
+
+      .searchText {
+        padding: 20px;
+        height: 40px;
+        width: 670px;
+        border: none;
+        // outline: none;
+        font-size: 16px;
+        // background: transparent;
+      }
+      .searchbtn {
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        background: transparent;
+        border: none;
+        cursor: pointer;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+    }
+
+    .filterButton {
+      width: 80%;
+      display: flex;
+      flex-flow: row wrap;
+    }
+  }
+  .script {
+    display: flex;
+    flex-direction: column;
+
+    margin: 50px;
+    background-color: #f2f6f9;
+
+    .sorting {
+      width: 90%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .text {
+        margin-left: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+    }
+    .scripts {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .more {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

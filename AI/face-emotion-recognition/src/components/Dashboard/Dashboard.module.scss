@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  background-color: black;
+  height: 100%;
+
+  .emotiongraph {
+    margin-bottom: 40px;
+    padding: auto;
+  }
+
+  .flexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .botton {
+    border: none;
+  }
+
+  @media only screen and (max-width: 640px) {
+    .dashboardRight {
+      display: none;
+      margin-left: 20px;
+    }
+  }
+
+  .textfield {
+    margin-left: 20px;
+  }
+}

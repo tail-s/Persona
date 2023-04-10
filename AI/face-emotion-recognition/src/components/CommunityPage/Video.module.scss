@@ -1,0 +1,31 @@
+.video {
+  border: 1px solid #000000;
+  padding: 30px;
+  margin: 10px;
+  width: 45%;
+  height: 300px;
+  border-radius: 1rem;
+  cursor: pointer;
+  .date {
+  }
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+.selected {
+  border: 2px solid #8d8d8d;
+  background-color: #8d8d8d48;
+  padding: 30px;
+  margin: 10px;
+  width: 45%;
+  height: 300px;
+  border-radius: 1rem;
+  cursor: pointer;
+  .date {
+  }
+  .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
